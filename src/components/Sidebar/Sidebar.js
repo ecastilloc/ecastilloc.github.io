@@ -1,11 +1,12 @@
 import React from 'react';
+import './Sidebar.css';
 
 const Sidebar = props => (
-    <header>
-        <nav>
+    <header className="sidebar">
+        <nav className="sidebar__navigation">
             <div></div>
-            <div><a href="/">THE LOGO</a></div>
-            <div>
+            <div className="sidebar__logo"><a href="/">THE LOGO</a></div>
+            <div className="sidebar_navigation-items">
                 <ul>
                     <li><a href="/">Something about me</a></li>
                     <li><a href="/">My projects</a></li>
