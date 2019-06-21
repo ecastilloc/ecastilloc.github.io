@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Toolbar/>
-      <main></main>
+      <main><p>Some content here</p></main>
     </div>
   );
 }

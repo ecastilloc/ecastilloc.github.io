@@ -1,0 +1,15 @@
+.logo-container {
+    text-align: center;
+}
+
+.author-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("https://avatars2.githubusercontent.com/u/5246046?s=460&v=4");
+}

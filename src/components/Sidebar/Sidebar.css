@@ -1,0 +1,27 @@
+.sidebar {
+    top: 0;
+    left: 0;
+    float: left;
+    width: 300px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1001;
+    background: #f2f3f7;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.sidebar ul{
+    padding: 6px 8px 6px 16px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar__navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
