@@ -19,7 +19,7 @@ const Sidebar = props => (
         <nav className="navigation-icons-bar">
             <div className="navitation-icons-items">
                 <ul>
-                    {/* https://scotch.io/tutorials/using-font-awesome-5-with-react */}
+                {/* https://scotch.io/tutorials/using-font-awesome-5-with-react */}
                 <li><a href="https://www.facebook.com" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a></li>
                 <li><a href="https://twitter.com" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a></li>
                 <li><a href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a></li>
