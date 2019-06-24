@@ -1,11 +1,13 @@
 import React from 'react';
-import Toolbar from "./components/Sidebar/Sidebar"
+import Sidebar from "./components/Sidebar/Sidebar"
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
     <div className="App">
-      <Toolbar/>
-      <main><p>Some content here</p></main>
+      <Sidebar/>
+      <main><Hero></Hero></main>
+      
     </div>
   );
 }
